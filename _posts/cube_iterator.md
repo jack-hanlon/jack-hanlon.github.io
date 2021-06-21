@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Triangle Numbers can be used to calculate Cube Volumes
 date: 2021-06-21
