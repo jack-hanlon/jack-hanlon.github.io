@@ -1,3 +1,12 @@
+ ---
+layout: post
+title: Triangle Numbers can be used to calculate Cube Volumes
+date: 2021-06-21
+published: true
+categories: tutorials
+---
+ 
+ 
  # Triangle Numbers iterate cube volume 
  The growth rate of discretely defined integer n cubes can be calculated by analyzing the effective differential between the $n^{3}$ value of each consecutive cube. 
  Suppose n: 1      2       3      4      5
