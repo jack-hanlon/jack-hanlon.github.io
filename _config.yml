@@ -22,10 +22,10 @@ url: http://jack-hanlon.github.io
 author:
   name: Jack Hanlon
   twitter:
-  picture:
+  picture: https://avatars.githubusercontent.com/u/35750826?v=4
 twitter_username:
 github_username: jack-hanlon
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+logo: https://avatars.githubusercontent.com/u/35750826?v=4
 search: # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
