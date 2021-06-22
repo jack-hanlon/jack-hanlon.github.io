@@ -6,21 +6,33 @@ published: true
 categories: tutorials
 image:
 ---
- 
- 
- # Triangle Numbers iterate cube volume 
- The growth rate of discretely defined integer n cubes can be calculated by analyzing the effective differential between the $n^{3}$ value of each consecutive cube. 
- Suppose n: 1      2       3      4      5
- then $n^{3}$: 1     8       27    64     125
- <br/>
- 8-1 = 7 , 27 -8 = 19,  64 - 27 = 31, 125 - 64 = 61
- </br>
- We begin to notice the series : 7,19,31,61,91 ... 
- </br> 
- If one recognizes the distinction of the Triangle numbers as an aside, we can use said notation to show that the growth rate of the cubes grows linearly in correspondence to the nth value of the triangle number plus the initial constant of 1.
- (TRIANGLE NUMBERS): n = 1,2,3,4,5 T(n) = 1,3,6,10,15
- Thus we can deduce that the rate of change of discrete cubes can be represented as : $\delta C = 6T(n) + 1$
 
+
+ <h1>Triangle Numbers iterate cube volume</h1>
+ <p>
+ The growth rate of discretely defined integer n cubes can be calculated by analyzing the effective differential between the n^3 value of each consecutive cube.
+ </p>
+ <p>
+ Suppose n: 1      2       3      4      5
+ </p>
+ <p>
+ then n^3: 1     8       27    64     125
+ </p>
+ <p>
+ 8-1 = 7 , 27 -8 = 19,  64 - 27 = 31, 125 - 64 = 61
+ </p>
+ <p>
+ We begin to notice the series : 7,19,31,61,91 ...
+ </p>
+ <p>
+ If one recognizes the distinction of the Triangle numbers as an aside, we can use said notation to show that the growth rate of the cubes grows linearly in correspondence to the nth value of the triangle number plus the initial constant of 1.
+ </p>
+ <p>
+ (TRIANGLE NUMBERS): n = 1,2,3,4,5 T(n) = 1,3,6,10,15
+ </p>
+ <p>
+ Thus we can deduce that the rate of change of discrete cubes can be represented as : $\delta C = 6T(n) + 1$
+ </p>
 
 ```python
 '''
@@ -49,7 +61,7 @@ def triangle_numbers(sum,n):
 ```
 
     Populating the interactive namespace from numpy and matplotlib
-    
+
 
 
 ```python
@@ -96,7 +108,7 @@ axs[1].set_title("Plot using Triangle number iterator")
     n^3: [   1    8   27   64  125  216  343  512  729 1000]
     Cube Iterated Difference: [  7  19  37  61  91 127 169 217 271 331]
     Previous Cube + Iterator: [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
-    
+
 
 
     <IPython.core.display.Javascript object>
@@ -110,5 +122,3 @@ axs[1].set_title("Plot using Triangle number iterator")
 
 
     Text(0.5, 1.0, 'Plot using Triangle number iterator')
-
-
