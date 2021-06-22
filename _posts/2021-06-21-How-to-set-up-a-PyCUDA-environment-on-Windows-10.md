@@ -31,17 +31,22 @@ The others just require the default settings.
 <h5>Once these are all downloaded and installed, create a batch file labeled "launch-python-cuda-environment.bat" with the following contents:</h5>
 </p>
 <p>
-```
+
+<p>
 call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+</p>
+<p>
 call "C:\Users\your_name\Anaconda3\Scripts\activate.bat" C:\Users\your_name\Anaconda3
+</p>
+<p>
 cmd
-```
+</p>
 </p>
 <p>
 It is important to note that:
 </p>
 <p>
-1. The first line of your batch file needs to point to the vsvarsall.bat file in your Visual Studio installation (May be in a different location than described above).
+1. The first line of your batch file needs to point to the vcvarsall.bat file in your Visual Studio installation (May be in a different location than described above).
 </p>
 2. CUDA toolkits need to be added to the path variable for your command prompt.
 <p>
