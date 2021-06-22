@@ -12,14 +12,20 @@ image:
 </p>
 <p>
 - Anaconda 3 (with Latest Python) -- https://www.anaconda.com/products/individual#Downloads
+</p>
+<p>
 - Visual Studio 2019 -- https://visualstudio.microsoft.com/downloads/
+</p>
+<p>
 - CUDA Toolkit 11.2 -- https://developer.nvidia.com/cuda-11.2.0-download-archive
+</p>
+<p>
 - CUDA Toolkit 11.3 -- https://developer.nvidia.com/cuda-downloads
 </p>
 <p>
 The Visual Studio download will prompt you to install packages for its environment, select the relevant data science packages and the C++ integration on the menu on the right hand side.
 
-The others just require the defuault settings.
+The others just require the default settings.
 </p>
 <p>
 <h5>Once these are all downloaded and installed, create a batch file labeled "launch-python-cuda-environment.bat" with the following contents:</h5>
