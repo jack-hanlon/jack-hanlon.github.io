@@ -1,5 +1,7 @@
 ---
 layout: home
+paginate: false
+sub_title: "Recent Graduate in Canada"
 ---
 
 Jack Hanlon, BSc - Job hunting recent graduate
