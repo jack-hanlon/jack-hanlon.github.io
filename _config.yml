@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Jack Hanlon, BSc
+title: Jack Hanlon
 email: jacklhanlon@yahoo.co.uk
 description: Uvic Physics & Computer Science Alumni
 baseurl: # the optional subpath of your site, e.g. "/blog"
