@@ -34,7 +34,7 @@ image:
  Thus we can deduce that the rate of change of discrete cubes can be represented as : C = 6T(n) + 1
  </p>
  For example 3^3 is 27 and 4^3 is 64. 64 - 27 = 37 = 6*T(3) + 1 = 6*6 + 1 = 37
- </p>
+ 
 
 ```python
 '''
