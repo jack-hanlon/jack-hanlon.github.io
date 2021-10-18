@@ -4,7 +4,6 @@ title: How to set up a PyCUDA environment on Windows 10
 date: 2021-06-21
 published: true
 categories: tutorials
-image: /images/pycuda.png
 ---
 <h1>How to set up a PyCUDA environment on Windows 10<h1/>
 <p>
