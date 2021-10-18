@@ -10,7 +10,7 @@ image:
 
  <h1>Triangle Numbers iterate cube volume</h1>
  <p>
- The growth rate of discretely defined integer n cubes can be calculated by analyzing the effective differential between the n^3 value of each consecutive cube.
+ The growth rate of discretely defined integer n cubes can be calculated by analyzing the difference between the n^3 value of each consecutive cube.
  </p>
  <p>
  Suppose n: 1      2       3      4      5
@@ -25,13 +25,15 @@ image:
  We begin to notice the series : 7,19,31,61,91 ...
  </p>
  <p>
- If one recognizes the distinction of the Triangle numbers as an aside, we can use said notation to show that the growth rate of the cubes grows linearly in correspondence to the nth value of the triangle number plus the initial constant of 1.
+ By using the Triangle numbers sequence, we can use said notation to show that the growth rate of the cubes grows linearly in correspondence to the nth value of the triangle number plus the initial constant of 1.
  </p>
  <p>
  (TRIANGLE NUMBERS): n = 1,2,3,4,5 T(n) = 1,3,6,10,15
  </p>
  <p>
- Thus we can deduce that the rate of change of discrete cubes can be represented as : $\delta C = 6T(n) + 1$
+ Thus we can deduce that the rate of change of discrete cubes can be represented as : C = 6T(n) + 1
+ </p>
+ For example 3^3 is 27 and 4^3 is 64. 64 - 27 = 37 = 6*T(3) + 1 = 6*6 + 1 = 37
  </p>
 
 ```python
